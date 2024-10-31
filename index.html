@@ -6,50 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/css/dflip.min.css" rel="stylesheet" type="text/css" />
     <link href="./assets/css/themify-icons.min.css" rel="stylesheet" type="text/css" />
-    <style>
-        /* Style for the top bar */
-        .top-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-            background-color: #333;
-            color: #fff;
-        }
+   <script>
+    var option_df_manual_book{
         
-        .top-bar .title {
-            font-size: 18px;
-            font-weight: bold;
-        }
-        
-        .top-bar .search-box {
-            display: flex;
-            align-items: center;
-        }
-        
-        .top-bar .search-box input[type="text"] {
-            padding: 5px;
-            font-size: 14px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-            outline: none;
-        }
-        
-        .top-bar .search-box button {
-            margin-left: 5px;
-            padding: 5px 10px;
-            background-color: #555;
-            color: #fff;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-    </style>
+    }
+   </script>
 </head>
 <body class="body">
     <!-- Top bar with title and search -->
     <div class="top-bar">
-        <div class="title">Example Flipbook</div>
+        <div class="title">CONTOH FLIPBOOK</div>
         <div class="search-box">
             <input type="text" id="searchInput" placeholder="Search..." autocomplete="off">
             <button onclick="searchInFlipbook()">Search</button>
@@ -59,9 +25,10 @@
     
 
         <div 
+        height="auto"
             class="_df_book" 
             webgl="true" 
-            height="auto" 
+           data-page="0"
             id="df_manual_book" 
             source="/assets/books/BICARA-103_2024-Tangguh-dan-Bertumbuh.pdf"
             thumb="/assets/images/coverbuku.jpg">
